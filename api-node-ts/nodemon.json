@@ -1,0 +1,8 @@
+{
+    "_commentWatch": "surveille le dossier src pour mise à jour automatique",
+    "watch": ["src"], 
+    "_commentExt": "surveille seulement les fichiers .ts",
+    "ext": "ts",
+    "_commentExec": "commande s'execute des qu'un fichier dans src change",
+    "exec": "ts-node -r dotenv/config src/index.ts"
+}
